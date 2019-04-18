@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+    application:
+      name: showcase
+---
+spring:
+  profiles: dev
+
+server:
+  port: 8081
+
+---
+spring:
+  profiles: prod
+
+server:
+  port: 8080
+
